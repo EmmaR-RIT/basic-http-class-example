@@ -1,0 +1,30 @@
+{
+  "name": "basic-http-class-example",
+  "version": "1.0.0",
+  "engine": {
+    "node": "24.18.0"
+  },
+  "description": "",
+  "homepage": "https://github.com/EmmaR-RIT/basic-http-class-example#readme",
+  "bugs": {
+    "url": "https://github.com/EmmaR-RIT/basic-http-class-example/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmmaR-RIT/basic-http-class-example.git"
+  },
+  "license": "ISC",
+  "author": "Emma Rausch",
+  "type": "commonjs",
+  "main": "./src/server.js",
+  "scripts": {
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Test Complete\" && exit 1",
+    "start": "node ./src/server.js"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.9.1",
+    "globals": "^17.11.0"
+  }
+}
