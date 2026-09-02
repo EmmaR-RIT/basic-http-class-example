@@ -19,7 +19,7 @@
   "main": "./src/server.js",
   "scripts": {
     "pretest": "eslint ./src --fix",
-    "test": "echo \"Test Complete\"",
+    "test": "echo Test Complete",
     "start": "node ./src/server.js"
   },
   "devDependencies": {
