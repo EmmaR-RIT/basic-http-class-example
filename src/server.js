@@ -9,6 +9,9 @@ const onRequest = (req, res) => {
     if (req.url === '/page2') {
         responses.getPage2(req, res);
     }
+    else if (req.url === '/message') {
+        responses.getMessage(req, res);
+    }
     else {
         responses.getIndex(req, res);
     }
